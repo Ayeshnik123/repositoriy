@@ -42,14 +42,22 @@ namespace Репозиторий
 
         public static void zadanie(DataGridView dataGridView1, DataGridView dataGridView2, TextBox textBox1, TextBox textBox2)
         {
-            int max = 0;
+            int znach1 = 1;
             for (int j = 0; j <dataGridView1.RowCount; j ++)
                 for (int i = 0; i < dataGridView1.ColumnCount; i++)
                 {
-                    if (Convert.ToInt32(dataGridView1[0, i].Value) < 0) max *= Convert.ToInt32(dataGridView1[0, i].Value);
+                    if (Convert.ToInt32(dataGridView1[0, i].Value) < 0) znach1 *= Convert.ToInt32(dataGridView1[0, i].Value);
                 }
-                textBox1.Text = Convert.ToString(max);
-           
+                textBox1.Text = Convert.ToString(znach1);
+
+            int znach2 = 1;
+            for (int j = 0; j < dataGridView2.RowCount; j++)
+                for (int i = 0; i < dataGridView2.ColumnCount; i++)
+                {
+                    if (Convert.ToInt32(dataGridView2[0, i].Value) < 0) znach2 *= Convert.ToInt32(dataGridView2[0, i].Value);
+                }
+            textBox2.Text = Convert.ToString(znach2);
+
         }
     }
 }

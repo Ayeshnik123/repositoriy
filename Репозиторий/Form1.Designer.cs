@@ -265,18 +265,18 @@ namespace Репозиторий
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(118, 390);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(91, 13);
+            this.label5.Size = new System.Drawing.Size(81, 13);
             this.label5.TabIndex = 16;
-            this.label5.Text = "- Номер столбца";
+            this.label5.Text = "Произведение";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(438, 390);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(91, 13);
+            this.label6.Size = new System.Drawing.Size(81, 13);
             this.label6.TabIndex = 17;
-            this.label6.Text = "Номер столбца -";
+            this.label6.Text = "Произведение";
             // 
             // button5
             // 
